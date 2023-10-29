@@ -1,36 +1,57 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Movie Finder Website
+
+The Movie Finder Website is a web application built with Next.js and Tailwind CSS that allows users to search for movies and TV series using an external Movie API. The website provides information such as title, runtime, number of episodes (for TV series), release years, and the type of movie or series.
+
+## Table of Contents
+- [Getting Started](#getting-started)
+- [Features](#features)
+- [Usage](#usage)
+- [Roadmap](#roadmap)
+- [Support](#support)
+- [License](#license)
 
 ## Getting Started
 
-First, run the development server:
+To get started with the Movie Finder Website, follow these steps:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+1. Clone the repository to your local machine.
+2. Install the required dependencies using `npm install` or `yarn install`.
+3. Start the development server using `npm run dev` or `yarn dev`.
+4. Open your web browser and navigate to `http://localhost:3000` to access the website.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Features
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+- **Search for Movies and TV Series**: Users can search for movies and TV series by title, keyword, or other criteria.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+- **Display Movie Information**: The website displays detailed information about the selected movie, including title, runtime, number of episodes (for TV series), release years, and the type of movie or series.
 
-## Learn More
+- **User-Friendly UI**: The website features a user-friendly and responsive user interface, designed with Tailwind CSS for a great user experience.
 
-To learn more about Next.js, take a look at the following resources:
+## Usage
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+1. Enter a movie or TV series title or keyword in the search bar and press Enter or click the search button.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+2. The website will retrieve information from an external Movie API and display the search results on the screen.
 
-## Deploy on Vercel
+3. Click on a search result to view more details about the selected movie or series.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Roadmap
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+The Movie Finder Website is a work in progress. Here are some planned features for future development:
+
+- **Movie Descriptions**: Display a detailed description of the selected movie or series.
+
+- **Autocomplete Suggestions**: Implement autocomplete suggestions as users type their search queries.
+
+- **Trailer Previews**: Provide video previews or trailers for selected movies.
+
+- **Enhanced Search Filters**: Allow users to filter search results based on criteria like genre, release date, and more.
+
+
+## License
+
+This website is provided under the [Movie Finder Website License](https://www.moviefinderwebsite.com/license), which specifies the terms and conditions for its usage.
+
+---
+
+Enjoy using the Movie Finder Website to discover your favorite movies and TV series!
